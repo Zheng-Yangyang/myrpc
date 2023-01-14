@@ -1,2 +1,6 @@
 /home/zyy/mrpc/build/CMakeFiles/rebuild_cache.dir
 /home/zyy/mrpc/build/CMakeFiles/edit_cache.dir
+/home/zyy/mrpc/build/src/CMakeFiles/rebuild_cache.dir
+/home/zyy/mrpc/build/src/CMakeFiles/edit_cache.dir
+/home/zyy/mrpc/build/example/CMakeFiles/rebuild_cache.dir
+/home/zyy/mrpc/build/example/CMakeFiles/edit_cache.dir
