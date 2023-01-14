@@ -4,3 +4,6 @@
 /home/zyy/mrpc/build/src/CMakeFiles/edit_cache.dir
 /home/zyy/mrpc/build/example/CMakeFiles/rebuild_cache.dir
 /home/zyy/mrpc/build/example/CMakeFiles/edit_cache.dir
+/home/zyy/mrpc/build/example/callee/CMakeFiles/rebuild_cache.dir
+/home/zyy/mrpc/build/example/callee/CMakeFiles/edit_cache.dir
+/home/zyy/mrpc/build/example/callee/CMakeFiles/provider.dir
