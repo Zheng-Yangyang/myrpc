@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/zyy/mrpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/zyy/mrpc/src/mprpcconfig.cc",
+  "file": "/home/zyy/mrpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/zyy/mrpc/build/src",
   "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g -fPIC   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/zyy/mrpc/src/rpcprovider.cc",
   "file": "/home/zyy/mrpc/src/rpcprovider.cc"
 },
