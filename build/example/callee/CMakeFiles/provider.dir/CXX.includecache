@@ -46,6 +46,12 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
+../src/include/mprpcapplication.h
+
+../src/include/rpcprovider.h
+google/protobuf/service.h
+../src/include/google/protobuf/service.h
+
 /home/zyy/mrpc/example/callee/userservice.cc
 iostream
 -
@@ -53,4 +59,8 @@ string
 -
 user.pb.h
 /home/zyy/mrpc/example/callee/user.pb.h
+mprpcapplication.h
+/home/zyy/mrpc/example/callee/mprpcapplication.h
+rpcprovider.h
+/home/zyy/mrpc/example/callee/rpcprovider.h
 

@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include "user.pb.h"
+#include "mprpcapplication.h"
+#include "rpcprovider.h"
 
 class UserService : public fixbug::UserServiceRpc
 {
@@ -29,9 +31,11 @@ public:
     }
 };
 
-int main()
+int main(int argc, char **argv)
 {
-    UserService us;
-    us.Login("xxx", "xxx");
+    MprpcApplication::Init(argc, argv);
+    RpcProvider provider;
+    provider.NotifyService(new UserService());
+    provider.Run();
     return 0;
 }
