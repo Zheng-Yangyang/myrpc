@@ -119,11 +119,23 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "../../../lib/libmprpc.so",
+				"fragment" : "../../../lib/libmprpc.a",
 				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lprotobuf",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lmuduo_net",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lmuduo_base",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
 				"role" : "libraries"
 			}
 		],

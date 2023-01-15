@@ -16,21 +16,37 @@ unordered_map
 string
 -
 
-/home/zyy/mrpc/src/mprpcapplication.cc
-mprpcapplication.h
-/home/zyy/mrpc/src/mprpcapplication.h
-iostream
+../src/include/rpcprovider.h
+google/protobuf/service.h
+../src/include/google/protobuf/service.h
+memory
 -
-unistd.h
+muduo/net/TcpServer.h
+-
+muduo/net/EventLoop.h
+-
+muduo/net/InetAddress.h
+-
+muduo/net/TcpConnection.h
+-
+functional
+-
+google/protobuf/descriptor.h
 -
 string
+-
+unordered_map
 -
 
-/home/zyy/mrpc/src/mprpcconfig.cc
-mprpcconfig.h
-/home/zyy/mrpc/src/mprpcconfig.h
-iostream
--
+/home/zyy/mrpc/src/rpcprovider.cc
+rpcprovider.h
+/home/zyy/mrpc/src/rpcprovider.h
 string
+-
+mprpcapplication.h
+/home/zyy/mrpc/src/mprpcapplication.h
+functional
+-
+google/protobuf/descriptor.h
 -
 

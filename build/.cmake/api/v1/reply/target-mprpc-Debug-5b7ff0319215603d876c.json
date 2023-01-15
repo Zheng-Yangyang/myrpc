@@ -1,8 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/zyy/mrpc/lib/libmprpc.so"
+			"path" : "/home/zyy/mrpc/lib/libmprpc.a"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +12,6 @@
 		"commands" : 
 		[
 			"add_library",
-			"link_directories",
 			"include_directories"
 		],
 		"files" : 
@@ -36,17 +36,11 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 17,
-				"parent" : 2
-			},
-			{
-				"command" : 2,
-				"file" : 1,
 				"line" : 14,
 				"parent" : 2
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 1,
 				"line" : 15,
 				"parent" : 2
@@ -59,23 +53,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fPIC  "
-				}
-			],
-			"defines" : 
-			[
-				{
-					"define" : "mprpc_EXPORTS"
+					"fragment" : "-g  "
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "/home/zyy/mrpc/src/include"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"path" : "/home/zyy/mrpc/example"
 				}
 			],
@@ -89,24 +77,8 @@
 		}
 	],
 	"id" : "mprpc::@145eef247bfb46b6828c",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-L/home/zyy/mrpc/lib",
-				"role" : "libraryPath"
-			}
-		],
-		"language" : "CXX"
-	},
 	"name" : "mprpc",
-	"nameOnDisk" : "libmprpc.so",
+	"nameOnDisk" : "libmprpc.a",
 	"paths" : 
 	{
 		"build" : "src",
@@ -145,5 +117,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "STATIC_LIBRARY"
 }
