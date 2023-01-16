@@ -20,6 +20,11 @@
   "file": "/home/zyy/mrpc/src/rpcprovider.cc"
 },
 {
+  "directory": "/home/zyy/mrpc/build/src",
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/zyy/mrpc/src/mprpcchannel.cc",
+  "file": "/home/zyy/mrpc/src/mprpcchannel.cc"
+},
+{
   "directory": "/home/zyy/mrpc/build/example/callee",
   "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/zyy/mrpc/example/callee/userservice.cc",
   "file": "/home/zyy/mrpc/example/callee/userservice.cc"
@@ -27,6 +32,16 @@
 {
   "directory": "/home/zyy/mrpc/build/example/callee",
   "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/zyy/mrpc/example/user.pb.cc",
+  "file": "/home/zyy/mrpc/example/user.pb.cc"
+},
+{
+  "directory": "/home/zyy/mrpc/build/example/caller",
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/zyy/mrpc/example/caller/calluserservice.cc",
+  "file": "/home/zyy/mrpc/example/caller/calluserservice.cc"
+},
+{
+  "directory": "/home/zyy/mrpc/build/example/caller",
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/zyy/mrpc/example/user.pb.cc",
   "file": "/home/zyy/mrpc/example/user.pb.cc"
 }
 ]
