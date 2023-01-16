@@ -35,4 +35,7 @@ private:
     void OnConnection(const muduo::net::TcpConnectionPtr &);
     //已经建立连接用户的读写事件回调
     void OnMessage(const muduo::net::TcpConnectionPtr &,muduo::net::Buffer *,muduo::Timestamp);
+    //回调操作
+    void SendRpcResponse(const muduo::net::TcpConnectionPtr &, google::protobuf::Message*);
+
 };
