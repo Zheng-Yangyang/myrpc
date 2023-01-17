@@ -122,13 +122,27 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcchannel.cc.s"
 	cd /home/zyy/mrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/mrpc/src/mprpcchannel.cc -o CMakeFiles/mprpc.dir/mprpcchannel.cc.s
 
+src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: ../src/mprpccontroller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zyy/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
+	cd /home/zyy/mrpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/zyy/mrpc/src/mprpccontroller.cc
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpccontroller.cc.i"
+	cd /home/zyy/mrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zyy/mrpc/src/mprpccontroller.cc > CMakeFiles/mprpc.dir/mprpccontroller.cc.i
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpccontroller.cc.s"
+	cd /home/zyy/mrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zyy/mrpc/src/mprpccontroller.cc -o CMakeFiles/mprpc.dir/mprpccontroller.cc.s
+
 # Object files for target mprpc
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/mprpcapplication.cc.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cc.o" \
 "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
 "CMakeFiles/mprpc.dir/rpcprovider.cc.o" \
-"CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
+"CMakeFiles/mprpc.dir/mprpcchannel.cc.o" \
+"CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
@@ -138,9 +152,10 @@ mprpc_EXTERNAL_OBJECTS =
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zyy/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zyy/mrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../lib/libmprpc.a"
 	cd /home/zyy/mrpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /home/zyy/mrpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 

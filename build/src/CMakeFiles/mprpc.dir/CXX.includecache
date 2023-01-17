@@ -9,6 +9,10 @@
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -20,6 +24,12 @@ google/protobuf/message.h
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -81,4 +91,6 @@ arpa/inet.h
 -
 unistd.h
 -
+mprpccontroller.h
+/home/zyy/mrpc/src/mprpccontroller.h
 

@@ -25,23 +25,28 @@
   "file": "/home/zyy/mrpc/src/mprpcchannel.cc"
 },
 {
-  "directory": "/home/zyy/mrpc/build/example/callee",
-  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/zyy/mrpc/example/callee/userservice.cc",
-  "file": "/home/zyy/mrpc/example/callee/userservice.cc"
+  "directory": "/home/zyy/mrpc/build/src",
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/zyy/mrpc/src/mprpccontroller.cc",
+  "file": "/home/zyy/mrpc/src/mprpccontroller.cc"
 },
 {
   "directory": "/home/zyy/mrpc/build/example/callee",
-  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/zyy/mrpc/example/user.pb.cc",
-  "file": "/home/zyy/mrpc/example/user.pb.cc"
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/zyy/mrpc/example/callee/friendservice.cc",
+  "file": "/home/zyy/mrpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/zyy/mrpc/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/zyy/mrpc/example/friend.pb.cc",
+  "file": "/home/zyy/mrpc/example/friend.pb.cc"
 },
 {
   "directory": "/home/zyy/mrpc/build/example/caller",
-  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/zyy/mrpc/example/caller/calluserservice.cc",
-  "file": "/home/zyy/mrpc/example/caller/calluserservice.cc"
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/zyy/mrpc/example/caller/callfriendservice.cc",
+  "file": "/home/zyy/mrpc/example/caller/callfriendservice.cc"
 },
 {
   "directory": "/home/zyy/mrpc/build/example/caller",
-  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/zyy/mrpc/example/user.pb.cc",
-  "file": "/home/zyy/mrpc/example/user.pb.cc"
+  "command": "/usr/bin/g++   -I/home/zyy/mrpc/src/include -I/home/zyy/mrpc/example  -g   -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/zyy/mrpc/example/friend.pb.cc",
+  "file": "/home/zyy/mrpc/example/friend.pb.cc"
 }
 ]

@@ -18,7 +18,7 @@ public:
     {
         std::cout << "doing local service: Register" << std::endl;
         std::cout << "id:" << id << "name:" << name << "pwd:" << pwd << std::endl;
-        return false;
+        return true;
     }
 
     // 1.caller ===> Login(Login)
@@ -48,6 +48,7 @@ public:
         bool ret = Register(id, name, pwd);
         response->mutable_result()->set_errcode(0);
         response->mutable_result()->set_errmsg("");
+        response->set_success(ret);
         done->Run();
     }
 };

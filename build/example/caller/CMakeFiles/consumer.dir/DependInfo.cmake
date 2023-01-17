@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zyy/mrpc/example/user.pb.cc" "/home/zyy/mrpc/build/example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o"
-  "/home/zyy/mrpc/example/caller/calluserservice.cc" "/home/zyy/mrpc/build/example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o"
+  "/home/zyy/mrpc/example/friend.pb.cc" "/home/zyy/mrpc/build/example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+  "/home/zyy/mrpc/example/caller/callfriendservice.cc" "/home/zyy/mrpc/build/example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
