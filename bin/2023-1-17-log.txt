@@ -1,0 +1,2 @@
+11:15:23 => first log message11:15:53 => first log message11:18:5 => first log message11:18:5 => /home/zyy/mrpc/example/callee/friendservice.cc:4311:20:35 =>[error] first log message
+11:20:35 =>[error] /home/zyy/mrpc/example/callee/friendservice.cc:43
